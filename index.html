@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Budget Planner</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+    <script src="./app.js" defer></script>
+</head>
+<body>
+    <div.main>
+     <div class="upload">
+    <div class="budget">
+        <h1>Total Budget</h1>
+        <input type="text" name="budget" id="budget" placeholder="Your Budget Or Income" required>
+        <button onclick="getbudget()">Enter</button>
+    </div>
+    <div class="expenses">
+        <h1>Add Your Expenses</h1>
+        <input type="text" name="expensename" id="expensename" placeholder="Expense Name" required>
+        <input type="text" name="expense" id="expense" placeholder="Expanse Amount" required>
+        <button onclick="addexpenses()">Add</button>
+    </div>
+    </div>
+    <div class="details">
+        <div id="totalbudget">
+            <h4>Total Budget</h4>
+            <p>0</p>
+        </div>
+        <div id="totalexpenses">
+            <h4>Total Expenses</h4>
+            <p>0</p>
+        </div>
+        <div id="balance">
+            <h4>Balance</h4>
+            <p>0</p>
+        </div>
+    </div>
+    <div class="expdetails">
+        <h1>Expense List</h1>
+        <div id="record">
+            <div id="norecord">
+            <p>No Record Found</p>
+            <!-- <dv class="expenserecord">
+                <div>Expensename</div>
+                <div>3242</div>
+                <div><i class="fa-solid fa-pen-to-square"></i></div>
+                <div><i class="fa-solid fa-trash"></i></div>
+            </div>
+            </div>i -->
+        </div>
+    </div>
+    </div>
+</body>
+</html>
