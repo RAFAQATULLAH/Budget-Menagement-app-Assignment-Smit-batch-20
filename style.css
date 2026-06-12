@@ -174,4 +174,6 @@ body{
         width: 70%;
         height: 20vh;
     }
+    .expenses h1{
+        font-size: small;
 }
